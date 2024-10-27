@@ -1,6 +1,7 @@
 .container{
     width: fit-content;
     margin: 40px auto;
+    position: relative;
 }
 
 .slide {
@@ -10,3 +11,12 @@
     border-radius: 15px;
 }
 
+.ico-action{
+    height: 60px;
+    position: absolute;
+}
+
+.ico-prev{
+    left: -30px;
+    top: 40px;
+}
