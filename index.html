@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Slideshow</title>
-   <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
     <div class="container">
-        <img src="./Images/one.jpg" class="slide"/>
-        <img src="./Images/previous (1).png" class="ico-action ico-prev"/>
-        <img src="./Images/next (2).png" class="ico-action ico-next"/>
+        <img src="./Images/one.jpg" class="slide" id="slide"/>
+
+        <img src="./Images/previous (1).png" class="ico-action ico-prev" onclick="prev()" />
+        <img src="./Images/next (2).png" class="ico-action ico-next" onclick="next()" />
 
     </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
