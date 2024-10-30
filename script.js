@@ -4,7 +4,11 @@ let index = 0;
 const slide = document.getElementById('slide');
 
 function next() {
-    index++;
+    if (index < images.length - 1) {
+        index++;
+    } else {
+        index = 0;
+    }
 
     slide.src = images[index];
 }
