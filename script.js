@@ -19,6 +19,8 @@ function prev() {
     }else{
         index = images.length -1;
     }
-
+.
     slide.src = images[index];
 }
+
+setInterval(next ,3000);
