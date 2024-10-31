@@ -10,3 +10,8 @@ A simple image slideshow project created for practice. This project demonstrates
 - HTML: For creating the structure of the slideshow.
 - CSS: For styling the slideshow, adding transition effects, and making it visually appealing.
 - JavaScript: For controlling the slideshow timing, image rotation, and user navigation.
+
+## Setup and Usage
+1. Clone or download the project files.
+2. Open the index.html file in a web browser to view the slideshow.
+3. Adjust the interval timing or image order by modifying the JavaScript file, if desired.
